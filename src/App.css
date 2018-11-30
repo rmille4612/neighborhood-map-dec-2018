@@ -1,0 +1,107 @@
+body {
+  background-color: darkslategray;
+}
+.map {
+  width: 65%;
+  height: 500px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+}
+
+.locationList {
+  float: left;
+  width: 35%;
+  height: 500px;
+  vertical-align: top;
+  color: gold;
+}
+
+.locationList ul {
+  padding: 15px;
+  margin: auto;
+}
+
+.locationList ul li {
+  padding: 5px;
+  list-style: none;
+}
+
+.sidebarSearch {
+  margin: 15px;
+}
+
+/* style for big screen */
+@media (min-width: 800px) {
+  .map {
+    display: inline-block;
+    width:75%;
+    height: 500px;
+    vertical-align: top;
+  }
+
+  .locationList {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    vertical-align: top;
+    list-style: none;
+  }
+}
+
+/* style for small screen */
+@media screen and (max-width: 500px) {
+  .map {
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    vertical-align: top;
+  }
+
+  .locationList {
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    vertical-align: top;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .map {
+    position: relative;
+    right: -115px;
+    width: 50%;
+    height: 500px;
+    vertical-align: top;
+  }
+
+  .locationList {
+    display: inline-block;
+    width: 20%;
+    height: 500px;
+    vertical-align: top;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .map {
+    position: relative;
+    right: -160px;
+    width: 42%;
+    height: 500px;
+    vertical-align: top;
+  }
+
+  .locationList {
+    display: inline-block;
+    width: 8%;
+    height: 500px;
+    vertical-align: top;
+    list-style: none;
+  }
+}
